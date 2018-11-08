@@ -1,0 +1,108 @@
+parsedRC_2009-01-man.json
+Offensive Count : 23437
+Hateful Count : 683
+Offensive Count : 23690
+Hateful Count : 733
+Offensive Count : 23500
+Hateful Count : 678
+Offensive Count : 23130
+Hateful Count : 617
+parsedRC_2009-02-man.json
+Offensive Count : 22628
+Hateful Count : 524
+Offensive Count : 22881
+Hateful Count : 577
+Offensive Count : 22449
+Hateful Count : 573
+Offensive Count : 22082
+Hateful Count : 585
+parsedRC_2009-03-man.json
+Offensive Count : 24915
+Hateful Count : 544
+Offensive Count : 25121
+Hateful Count : 503
+Offensive Count : 24834
+Hateful Count : 605
+Offensive Count : 25247
+Hateful Count : 560
+parsedRC_2009-04-man.json
+Offensive Count : 26125
+Hateful Count : 709
+Offensive Count : 25542
+Hateful Count : 589
+Offensive Count : 26565
+Hateful Count : 674
+Offensive Count : 25920
+Hateful Count : 703
+parsedRC_2009-05-man.json
+Offensive Count : 28767
+Hateful Count : 668
+Offensive Count : 27746
+Hateful Count : 689
+Offensive Count : 27590
+Hateful Count : 790
+Offensive Count : 29140
+Hateful Count : 708
+parsedRC_2009-06-man.json
+Offensive Count : 28956
+Hateful Count : 723
+Offensive Count : 30076
+Hateful Count : 710
+Offensive Count : 31349
+Hateful Count : 811
+Offensive Count : 29653
+Hateful Count : 654
+parsedRC_2009-07-man.json
+Offensive Count : 36331
+Hateful Count : 1041
+Offensive Count : 37041
+Hateful Count : 1086
+Offensive Count : 36147
+Hateful Count : 984
+Offensive Count : 35211
+Hateful Count : 939
+parsedRC_2009-08-man.json
+Offensive Count : 43852
+Hateful Count : 1102
+Offensive Count : 43875
+Hateful Count : 905
+Offensive Count : 44864
+Hateful Count : 949
+Offensive Count : 45270
+Hateful Count : 1021
+parsedRC_2009-09-man.json
+Offensive Count : 46263
+Hateful Count : 1167
+Offensive Count : 54140
+Hateful Count : 1481
+Offensive Count : 52227
+Hateful Count : 1364
+Offensive Count : 53092
+Hateful Count : 1315
+parsedRC_2009-10-man.json
+Offensive Count : 58894
+Hateful Count : 1368
+Offensive Count : 62295
+Hateful Count : 1497
+Offensive Count : 61297
+Hateful Count : 1561
+Offensive Count : 59689
+Hateful Count : 1470
+parsedRC_2009-11-man.json
+Offensive Count : 59549
+Hateful Count : 1435
+Offensive Count : 59530
+Hateful Count : 1685
+Offensive Count : 58713
+Hateful Count : 1333
+Offensive Count : 58206
+Hateful Count : 1210
+parsedRC_2009-12-man.json
+Offensive Count : 66693
+Hateful Count : 1415
+Offensive Count : 67696
+Hateful Count : 1482
+Offensive Count : 65690
+Hateful Count : 1479
+Offensive Count : 70923
+Hateful Count : 1604

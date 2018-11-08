@@ -1,0 +1,108 @@
+parsed2008-01.json
+Offensive Count : 8925
+Hateful Count : 392
+Offensive Count : 9229
+Hateful Count : 295
+Offensive Count : 8789
+Hateful Count : 303
+Offensive Count : 9086
+Hateful Count : 286
+parsed2008-02.json
+Offensive Count : 9218
+Hateful Count : 314
+Offensive Count : 9306
+Hateful Count : 312
+Offensive Count : 9856
+Hateful Count : 317
+Offensive Count : 10386
+Hateful Count : 350
+parsed2008-03.json
+Offensive Count : 9684
+Hateful Count : 373
+Offensive Count : 10820
+Hateful Count : 263
+Offensive Count : 10669
+Hateful Count : 392
+Offensive Count : 10016
+Hateful Count : 318
+parsed2008-04.json
+Offensive Count : 10209
+Hateful Count : 354
+Offensive Count : 10196
+Hateful Count : 308
+Offensive Count : 9924
+Hateful Count : 284
+Offensive Count : 9910
+Hateful Count : 330
+parsed2008-05.json
+Offensive Count : 11821
+Hateful Count : 419
+Offensive Count : 12372
+Hateful Count : 363
+Offensive Count : 11762
+Hateful Count : 400
+Offensive Count : 12226
+Hateful Count : 410
+parsed2008-06.json
+Offensive Count : 12775
+Hateful Count : 304
+Offensive Count : 12527
+Hateful Count : 373
+Offensive Count : 14011
+Hateful Count : 440
+Offensive Count : 12576
+Hateful Count : 358
+parsed2008-07.json
+Offensive Count : 12618
+Hateful Count : 370
+Offensive Count : 12839
+Hateful Count : 389
+Offensive Count : 13720
+Hateful Count : 352
+Offensive Count : 12942
+Hateful Count : 374
+parsed2008-08.json
+Offensive Count : 13678
+Hateful Count : 416
+Offensive Count : 13277
+Hateful Count : 371
+Offensive Count : 13832
+Hateful Count : 442
+Offensive Count : 14086
+Hateful Count : 356
+parsed2008-09.json
+Offensive Count : 15768
+Hateful Count : 358
+Offensive Count : 15528
+Hateful Count : 404
+Offensive Count : 15921
+Hateful Count : 404
+Offensive Count : 16708
+Hateful Count : 366
+parsed2008-10.json
+Offensive Count : 18912
+Hateful Count : 478
+Offensive Count : 18266
+Hateful Count : 573
+Offensive Count : 18096
+Hateful Count : 600
+Offensive Count : 18967
+Hateful Count : 591
+parsed2008-11.json
+Offensive Count : 17428
+Hateful Count : 540
+Offensive Count : 18142
+Hateful Count : 588
+Offensive Count : 17751
+Hateful Count : 471
+Offensive Count : 18763
+Hateful Count : 655
+parsed2008-12.json
+Offensive Count : 20091
+Hateful Count : 522
+Offensive Count : 20086
+Hateful Count : 474
+Offensive Count : 19789
+Hateful Count : 524
+Offensive Count : 19991
+Hateful Count : 497
