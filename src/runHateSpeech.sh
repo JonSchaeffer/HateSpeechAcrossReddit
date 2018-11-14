@@ -2,6 +2,6 @@
 
 for i in parsed*-*.json; do
     echo $i
-    python hateSpeech.py -i $i
+    python ../multiCoreHateSpeech.py -i $i
     continue
 done

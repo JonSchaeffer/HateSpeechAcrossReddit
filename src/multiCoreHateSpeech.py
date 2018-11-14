@@ -42,29 +42,41 @@ data.strip('"')
 data.replace('\r', '')
 input = data.split('\n')
 
-splitInput = [input[x:x+math.ceil(len(input)/8)] for x in range(0, len(input), math.ceil(len(input)/8))]
+splitInput = [input[x:x+math.ceil(len(input)/4)] for x in range(0, len(input), math.ceil(len(input)/4))]
 #print(chunks[3])
 
 
-def f(splitInput, splitInputIndex):
+#def f(splitInput, splitInputIndex):
     #print('{}: hello {} from {}'.format(
      #   dt.datetime.now(), name, current_process().name))
     #sys.stdout.flush()
 
-    from hatesonar import Sonar
-    sonar = Sonar()
+from hatesonar import Sonar
+sonar = Sonar()
 
+def f(splitInput, splitInputIndex):
+    #offensiveCount = 0
+    hatefulCount = 0
     for i in splitInput[splitInputIndex]:
+    #for i in input:
         sonarEval = sonar.ping(i)
         if sonarEval['top_class'] == "neither":
             continue 
-        if sonarEval['top_class'] == "hate_speech":
-            os.system("cat {} | jq 'select(.body == \"{}\""")' >> hate{}".format(args['input'], i, args['input']))
-            continue
         if sonarEval['top_class'] == "offensive_language":
-            os.system("cat {} | jq 'select(.body == \"{}\""")' >> offensive{}".format(args['input'], i, args['input']))
+            #os.system("cat {} | jq 'select(.body == \"{}\""")' >> offensive{}".format(args['input'], i, args['input']))
+            #offensiveCount += 1
             continue
+        if sonarEval['top_class'] == "hate_speech":
+            #os.system("cat {} | jq 'select(.body == \"{}\""")' >> hate{}".format(args['input'], i, args['input']))
+            hatefulCount += 1 
+            continue
+    #print ("Offensive Count :", offensiveCount)
+    print ("Hateful Count :", hatefulCount)
 
+
+
+#print("Hateful Count: ", hatefulCount)
+#print("Offensive Count: ", offensiveCount)
 
 if __name__ == '__main__':
 
@@ -81,14 +93,14 @@ if __name__ == '__main__':
     p3.start()
     p4 = Process(target=f, args=(splitInput, 3))
     p4.start()
-    p5 = Process(target=f, args=(splitInput, 4))
-    p5.start()
-    p6 = Process(target=f, args=(splitInput, 5))
-    p6.start()
-    p7 = Process(target=f, args=(splitInput, 6))
-    p7.start()
-    p8 = Process(target=f, args=(splitInput, 7))
-    p8.start()
+    #p5 = Process(target=f, args=(splitInput, 4))
+    #p5.start()
+    #p6 = Process(target=f, args=(splitInput, 5))
+    #p6.start()
+    #p7 = Process(target=f, args=(splitInput, 6))
+    #p7.start()
+    #p8 = Process(target=f, args=(splitInput, 7))
+    #p8.start()
 
     p1.join()
     p2.join()
@@ -96,9 +108,9 @@ if __name__ == '__main__':
     p4.join()
                 
     #mark the end time
-    endTime = time.time()
+    #endTime = time.time()
     #calculate the total time it took to complete the work
-    workTime =  endTime - startTime
+    #workTime =  endTime - startTime
         
     #print results
     #print "The job took " + str(workTime) + " seconds to complete"
@@ -114,3 +126,4 @@ if __name__ == '__main__':
 
     # Allow time to view results before program terminates.
     #a = input("Finished")  # raw_input(...) in Python 2.
+
