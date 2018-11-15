@@ -361,4 +361,3 @@ Offensive Count : 39939
 Hateful Count : 729
 Offensive Count : 39939
 Hateful Count : 729
-parsedRC_2010-12-man.json
