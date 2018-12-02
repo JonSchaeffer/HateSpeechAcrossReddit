@@ -29,9 +29,9 @@ ap.add_argument("-i", "--input", required=True,
     help="Input File")
 args = vars(ap.parse_args())
 
-os.system('cat ' + args['input'] + ' | jq .body > temp' + args['input'])
+#os.system('cat ' + args['input'] + ' | jq .body > temp' + args['input'])
 
-with open("temp" + args['input'], "r") as tempFile:
+with open(args['input'], "r") as tempFile:
     data = tempFile.read().strip().replace('\\', '').replace('"', '').replace('\'', '')
 
 os.system("rm -rf temp{}".format(args['input']))
@@ -42,7 +42,7 @@ data.strip('"')
 data.replace('\r', '')
 input = data.split('\n')
 
-splitInput = [input[x:x+math.ceil(len(input)/4)] for x in range(0, len(input), math.ceil(len(input)/4))]
+splitInput = [input[x:x+math.ceil(len(input)/6)] for x in range(0, len(input), math.ceil(len(input)/6))]
 #print(chunks[3])
 
 
@@ -93,10 +93,10 @@ if __name__ == '__main__':
     p3.start()
     p4 = Process(target=f, args=(splitInput, 3))
     p4.start()
-    #p5 = Process(target=f, args=(splitInput, 4))
-    #p5.start()
-    #p6 = Process(target=f, args=(splitInput, 5))
-    #p6.start()
+    p5 = Process(target=f, args=(splitInput, 4))
+    p5.start()
+    p6 = Process(target=f, args=(splitInput, 5))
+    p6.start()
     #p7 = Process(target=f, args=(splitInput, 6))
     #p7.start()
     #p8 = Process(target=f, args=(splitInput, 7))
@@ -106,7 +106,8 @@ if __name__ == '__main__':
     p2.join()
     p3.join()
     p4.join()
-                
+    p5.join()
+    p6.join()
     #mark the end time
     #endTime = time.time()
     #calculate the total time it took to complete the work

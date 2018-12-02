@@ -1,5 +1,5 @@
-for i in parsed*.json; do
+for i in sorted*.json; do
 	LINETOTAL="$(wc -l < $i)"
-	echo $(( LINETOTAL / 8 )) $i
+	echo $LINETOTAL
 done
 
