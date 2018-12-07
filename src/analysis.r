@@ -26,7 +26,7 @@ dataReddit <- read.table(file.choose(), header = TRUE, sep = ",")
 
 
 ##### Filter data by year
-dataReddit2005 <- filter(dataReddit, year == "2005-01")
+dataReddit2005 <- filter(dataReddit, year == "2005-12")
 dataReddit2006 <- filter(dataReddit, year == "2006-01" | year == "2006-02" | year == "2006-03" | year == "2006-04" | year == "2006-05" | year == "2006-06" | year == "2006-07" | year == "2006-08" | year == "2006-09" | year == "2006-10" | year == "2006-11" | year == "2006-12")
 dataReddit2007 <- filter(dataReddit, year == "2007-01" | year == "2007-02" | year == "2007-03" | year == "2007-04" | year == "2007-05" | year == "2007-06" | year == "2007-07" | year == "2007-08" | year == "2007-09" | year == "2007-10" | year == "2007-11" | year == "2007-12")
 dataReddit2008 <- filter(dataReddit, year == "2008-01" | year == "2008-02" | year == "2008-03" | year == "2008-04" | year == "2008-05" | year == "2008-06" | year == "2008-07" | year == "2008-08" | year == "2008-09" | year == "2008-10" | year == "2008-11" | year == "2008-12")
