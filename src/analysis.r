@@ -107,7 +107,7 @@ dataReddit %>% ggplot(aes(x = year, y = Hatespeech.)) + geom_point() + theme(axi
 
 
 
-##### Hate speech for each month per year
+##### Offensive language for each month per year
 
 ##### Create plots for each year by month
 p2006H <- dataReddit2006 %>% ggplot(aes(x = year, y = Hatespeech.)) + geom_point() + theme(axis.text.x = element_text(angle = 270))
@@ -128,61 +128,61 @@ grid.arrange(p2006H, p2007H, p2008H, p2009H, p2010H, p2011H, p2012H, p2013H, p20
 
 
 
-##### Hate speech % per month by year with election years and midterms marked
+##### Offensive language % per month by year with election years and midterms marked
 ##### 11-06 Mid, 11-08 Pres, 11-10 Mid, 11-12 Pres, 11-14 Mid, 11-16 Pres
 dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = 36, color = "red") + geom_vline(xintercept = 85, color = "red") + geom_vline(xintercept = 12, color = "blue") + geom_vline(xintercept = 60, color = "blue")
 
 
 
-##### Hate speech % with iPhone introduction marked
+##### Offensive language % with iPhone introduction marked
 ##### 06-07
 dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = 6, color = "green")
 
 
 
-##### Hate speech % with stock market crash marked
+##### Offensive language % with stock market crash marked
 ##### 09-08
 dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = 34, color = "green")
 
 
 
-##### Hate speech % with Deepwater Hozizon oil spill marked
+##### Offensive language % with Deepwater Hozizon oil spill marked
 ##### 04-10
 dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = 54, color = "green")
 
 
 
-##### Hate speech % with Iraq troop withdraw start and end marked
+##### Offensive language % with Iraq troop withdraw start and end marked
 ##### 12-07 start, 12-11 end
 dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = 25, color = "green") + geom_vline(xintercept = 73, color = "green")
 
 
 
-##### Hate speech % with Boston Marathon bombing marked
+##### Offensive language % with Boston Marathon bombing marked
 ##### 04-13
 # dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = , color = "green")
 
 
 
-##### Hate speech % with ISIS offensive start marked
+##### Offensive language % with ISIS offensive start marked
 ##### 04-14
 # dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = , color = "green")
 
 
 
-##### Hate speech % with Charleston chruch shooting marked
+##### Offensive language % with Charleston chruch shooting marked
 ##### 06-15
 # dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = , color = "green")
 
 
 
-##### Hate speech % with Paris terrorist attacks marked
+##### Offensive language % with Paris terrorist attacks marked
 ##### 11-15
 # dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = , color = "green")
 
 
 
-##### Hate speech % with Brexit marked
+##### Offensive language % with Brexit marked
 ##### 06-16
 # dataReddit %>% ggplot(aes(x = year, y = offensiveLanguage.)) + geom_point() + theme(axis.text.x = element_text(angle = 270)) + geom_vline(xintercept = , color = "green")
 
